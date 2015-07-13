@@ -1,0 +1,63 @@
+body {
+  font-family: 'Slabo 27px', serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 4em;
+}
+
+h2 {
+  font-size: 1.5em;
+  line-height: 3em;
+}
+
+table {
+  margin: 0 auto;
+  width: 450px;
+  height: 450px;
+  font-size: 100px;
+}
+
+.result {
+
+}
+
+.x {
+  background: yellow;
+}
+
+.o {
+  background: red;
+}
+
+.o, .x  {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 150px;
+}
+
+table td {
+  width: 150px;
+  height: 150px;
+}
+
+table tr:nth-child(1) td:nth-child(1),
+table tr:nth-child(1) td:nth-child(2),
+table tr:nth-child(2) td:nth-child(1),
+table tr:nth-child(1) td:nth-child(2),
+table tr:nth-child(2) td:nth-child(2) {
+  border-right: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
+
+table tr:nth-child(1) td:nth-child(3),
+table tr:nth-child(2) td:nth-child(3) {
+  border-bottom: 2px solid #000;
+}
+
+table tr:nth-child(3) td:nth-child(1),
+table tr:nth-child(3) td:nth-child(2) {
+  border-right: 2px solid #000;
+}
