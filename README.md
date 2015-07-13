@@ -1,2 +1,3 @@
-# tictactoe-js
-An implementation of tictactoe in Javascript.
+# Tictactoe-js
+
+An implementation of the game Tictactoe in Javascript.
